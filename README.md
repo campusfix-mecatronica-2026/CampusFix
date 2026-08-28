@@ -34,3 +34,9 @@ CampusFix centralizará los reportes en una aplicación móvil. Los usuarios pod
 - Consulta de los reportes creados y su estado.
 - Actualización del estado por parte del personal responsable.
 - Almacenamiento de la información y las fotografías en la nube.
+## Tablero Kanban
+
+El Product Backlog del Sprint 1 está disponible en el siguiente enlace:
+
+[CampusFix - Product Backlog (Sprint 1)](https://github.com/users/jorgeasanchezq/projects/1/views/1)
+
