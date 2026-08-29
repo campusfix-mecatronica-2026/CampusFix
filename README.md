@@ -40,3 +40,23 @@ El Product Backlog del Sprint 1 está disponible en el siguiente enlace:
 
 [CampusFix - Product Backlog (Sprint 1)](https://github.com/users/jorgeasanchezq/projects/1/views/1)
 
+## Sprint 2 - Diseño UX/UI y arquitectura
+
+El Sprint 2 incorpora un prototipo móvil navegable desarrollado con React Native y Expo. El flujo validado incluye:
+
+- Inicio de sesión.
+- Pantalla principal y resumen de reportes.
+- Creación del reporte en dos pasos.
+- Registro de ubicación, prioridad y evidencia fotográfica.
+- Confirmación con identificador único.
+- Consulta del detalle y seguimiento del incidente.
+
+La arquitectura propuesta sigue el patrón **MVVM** y contempla Firebase Authentication, Cloud Firestore, Firebase Storage y Cloud Functions como servicios administrados.
+
+### Entregables
+
+- [Informe de la Actividad Evaluable 02 (PDF)](docs/CampusFix_Actividad_Evaluable_02.pdf)
+- [Informe editable (Word)](docs/CampusFix_Actividad_Evaluable_02.docx)
+- [Diagrama de arquitectura MVVM](docs/arquitectura-campusfix.svg)
+- [Evidencias del prototipo](docs/evidencias/)
+

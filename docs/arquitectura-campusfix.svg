@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Arquitectura MVVM de CampusFix</title>
+  <desc id="desc">Diagrama por capas del prototipo móvil CampusFix y sus servicios administrados en Firebase.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#142D52" flood-opacity="0.12"/></filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#2363B4"/></marker>
+    <style>
+      .title{font:700 44px Arial,sans-serif;fill:#142D52}.subtitle{font:400 21px Arial,sans-serif;fill:#667085}
+      .lane{font:700 18px Arial,sans-serif;letter-spacing:2px;fill:#667085}.boxTitle{font:700 23px Arial,sans-serif;fill:#142D52}
+      .boxText{font:400 17px Arial,sans-serif;fill:#445268}.tag{font:700 15px Arial,sans-serif;fill:#FFFFFF}
+      .arrowLabel{font:700 15px Arial,sans-serif;fill:#2363B4}.foot{font:400 17px Arial,sans-serif;fill:#667085}
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="#F3F7FA"/>
+  <text x="80" y="78" class="title">CampusFix · Arquitectura móvil MVVM</text>
+  <text x="80" y="116" class="subtitle">React Native + Expo · Servicios administrados en la nube · Sprint 2</text>
+
+  <text x="90" y="188" class="lane">CLIENTE MÓVIL</text>
+  <rect x="80" y="215" width="260" height="505" rx="30" fill="#142D52" filter="url(#shadow)"/>
+  <rect x="108" y="250" width="204" height="388" rx="23" fill="#FFFFFF"/>
+  <rect x="178" y="270" width="64" height="8" rx="4" fill="#D9E1EA"/>
+  <circle cx="210" cy="350" r="44" fill="#009187"/><text x="210" y="360" text-anchor="middle" font-family="Arial" font-size="30" font-weight="700" fill="#FFFFFF">+</text>
+  <text x="210" y="427" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#142D52">CampusFix</text>
+  <text x="210" y="463" text-anchor="middle" font-family="Arial" font-size="16" fill="#667085">Android / iOS</text>
+  <text x="210" y="493" text-anchor="middle" font-family="Arial" font-size="16" fill="#667085">Expo Go</text>
+  <rect x="132" y="540" width="156" height="50" rx="15" fill="#2363B4"/><text x="210" y="571" text-anchor="middle" font-family="Arial" font-size="16" font-weight="700" fill="#FFFFFF">Interfaz móvil</text>
+  <text x="210" y="684" text-anchor="middle" class="tag">DISPOSITIVO</text>
+
+  <text x="440" y="188" class="lane">APLICACIÓN · PATRÓN MVVM</text>
+  <rect x="420" y="215" width="620" height="505" rx="30" fill="#FFFFFF" stroke="#D9E1EA" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="455" y="255" width="550" height="110" rx="20" fill="#EAF3FF"/>
+  <circle cx="505" cy="310" r="26" fill="#2363B4"/><text x="505" y="318" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#FFFFFF">V</text>
+  <text x="550" y="300" class="boxTitle">View · React Native</text>
+  <text x="550" y="331" class="boxText">Pantallas, componentes y navegación táctil</text>
+
+  <path d="M730 365 L730 400" stroke="#2363B4" stroke-width="4" marker-end="url(#arrow)"/>
+  <rect x="455" y="410" width="550" height="110" rx="20" fill="#E7F7F4"/>
+  <circle cx="505" cy="465" r="26" fill="#009187"/><text x="505" y="473" text-anchor="middle" font-family="Arial" font-size="19" font-weight="700" fill="#FFFFFF">VM</text>
+  <text x="550" y="455" class="boxTitle">ViewModel · Estado y acciones</text>
+  <text x="550" y="486" class="boxText">Validación, flujo, filtros y coordinación de datos</text>
+
+  <path d="M730 520 L730 555" stroke="#2363B4" stroke-width="4" marker-end="url(#arrow)"/>
+  <rect x="455" y="565" width="550" height="110" rx="20" fill="#FFF3E6"/>
+  <circle cx="505" cy="620" r="26" fill="#E67E22"/><text x="505" y="628" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#FFFFFF">M</text>
+  <text x="550" y="610" class="boxTitle">Model · Dominio y repositorios</text>
+  <text x="550" y="641" class="boxText">Usuario, Reporte, Evidencia y acceso a Firebase</text>
+  <rect x="860" y="687" width="130" height="28" rx="14" fill="#142D52"/><text x="925" y="706" text-anchor="middle" class="tag">TYPESCRIPT</text>
+
+  <path d="M340 470 L410 470" stroke="#2363B4" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="375" y="450" text-anchor="middle" class="arrowLabel">eventos</text>
+  <path d="M1040 470 L1110 470" stroke="#2363B4" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="1075" y="450" text-anchor="middle" class="arrowLabel">HTTPS</text>
+
+  <text x="1140" y="188" class="lane">NUBE ADMINISTRADA</text>
+  <rect x="1120" y="215" width="400" height="505" rx="30" fill="#FFFFFF" stroke="#D9E1EA" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="1155" y="252" width="330" height="92" rx="18" fill="#EAF3FF"/>
+  <text x="1190" y="290" class="boxTitle">Firebase Authentication</text><text x="1190" y="320" class="boxText">Identidad y acceso seguro</text>
+  <rect x="1155" y="366" width="330" height="92" rx="18" fill="#E7F7F4"/>
+  <text x="1190" y="404" class="boxTitle">Cloud Firestore</text><text x="1190" y="434" class="boxText">Reportes, estados y comentarios</text>
+  <rect x="1155" y="480" width="330" height="92" rx="18" fill="#FFF3E6"/>
+  <text x="1190" y="518" class="boxTitle">Firebase Storage</text><text x="1190" y="548" class="boxText">Evidencias fotográficas</text>
+  <rect x="1155" y="594" width="330" height="76" rx="18" fill="#F2F4F7"/>
+  <text x="1190" y="625" class="boxTitle">Cloud Functions</text><text x="1190" y="653" class="boxText">Notificaciones y automatización</text>
+  <rect x="1324" y="686" width="161" height="28" rx="14" fill="#009187"/><text x="1404" y="705" text-anchor="middle" class="tag">PAAS / BAAS</text>
+
+  <rect x="80" y="790" width="1440" height="125" rx="24" fill="#FFFFFF" stroke="#D9E1EA" stroke-width="2"/>
+  <text x="115" y="828" class="lane">TRAZABILIDAD Y ENTREGA · SAAS</text>
+  <text x="115" y="868" class="boxTitle">GitHub Repository</text><text x="310" y="868" class="boxText">código y versiones</text>
+  <circle cx="560" cy="862" r="5" fill="#D9E1EA"/>
+  <text x="600" y="868" class="boxTitle">GitHub Projects</text><text x="788" y="868" class="boxText">Kanban y auditoría</text>
+  <circle cx="1030" cy="862" r="5" fill="#D9E1EA"/>
+  <text x="1070" y="868" class="boxTitle">Expo</text><text x="1140" y="868" class="boxText">compilación y pruebas</text>
+  <text x="80" y="966" class="foot">Decisión de infraestructura: el MVP no administra IaaS directamente; usa PaaS/BaaS para reducir operación, acelerar el desarrollo y escalar bajo demanda.</text>
+</svg>
