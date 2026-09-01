@@ -60,3 +60,43 @@ La arquitectura propuesta sigue el patrón **MVVM** y contempla Firebase Authent
 - [Diagrama de arquitectura MVVM](docs/arquitectura-campusfix.svg)
 - [Evidencias del prototipo](docs/evidencias/)
 
+## Sprint 3 - Esqueleto móvil y navegación básica
+
+El incremento del Sprint 3 reorganiza el prototipo según el patrón **MVVM** y conecta las siete vistas mediante un navegador Native Stack tipado. El trabajo se desarrolla en la rama [`sprint-3-esqueleto-navegacion`](https://github.com/campusfix-mecatronica-2026/CampusFix/tree/sprint-3-esqueleto-navegacion).
+
+### Estructura del código
+
+```text
+src/
+├── components/    Componentes visuales reutilizables
+├── data/          Datos iniciales del prototipo
+├── models/        Entidades y tipos del dominio
+├── navigation/    Rutas y navegador principal
+├── services/      Construcción y consulta de reportes
+├── theme/         Colores y estilos compartidos
+├── viewmodels/    Estado y reglas de presentación
+└── views/         Pantallas conectadas de la aplicación
+```
+
+### Flujo navegable
+
+```text
+Inicio de sesión
+  → Inicio
+    → Nuevo reporte
+      → Evidencia y ubicación
+        → Confirmación
+          → Detalle del reporte
+    → Mis reportes
+      → Detalle del reporte
+```
+
+### Ejecución local
+
+```bash
+npm install
+npm run web
+```
+
+Para probarlo en Expo Go se utiliza `npm start`; para Android, `npm run android`.
+
