@@ -106,7 +106,7 @@ Se reorganizó la aplicación en capas de modelos, vistas, viewmodels, servicios
 - **Discussion principal:** [Retrospectiva Corte I - CampusFix #34](https://github.com/campusfix-mecatronica-2026/CampusFix/discussions/34).
 - **Tablero de retrospectiva en GitHub Projects:** pendiente de crear (opcional, recomendado).
 - **Issues de mejora:** [#35 - Firebase](https://github.com/campusfix-mecatronica-2026/CampusFix/issues/35), [#36 - pruebas y validaciones](https://github.com/campusfix-mecatronica-2026/CampusFix/issues/36) y [#37 - trazabilidad de Git](https://github.com/campusfix-mecatronica-2026/CampusFix/issues/37).
-- **Pull Request de esta retrospectiva:** pendiente de crear desde la rama `retrospectiva-corte1`.
+- **Pull Request de esta retrospectiva:** [Retrospectiva Corte I - CampusFix #38](https://github.com/campusfix-mecatronica-2026/CampusFix/pull/38).
 
 ## 8. Conclusión
 
