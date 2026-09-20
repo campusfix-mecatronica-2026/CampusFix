@@ -103,7 +103,7 @@ Se reorganizó la aplicación en capas de modelos, vistas, viewmodels, servicios
 
 ## 7. Enlaces de la retrospectiva
 
-- **Discussion principal:** pendiente de crear.
+- **Discussion principal:** [Retrospectiva Corte I - CampusFix #34](https://github.com/campusfix-mecatronica-2026/CampusFix/discussions/34).
 - **Tablero de retrospectiva en GitHub Projects:** pendiente de crear (opcional, recomendado).
 - **Issues de mejora:** pendientes de crear.
 - **Pull Request de esta retrospectiva:** pendiente de crear desde la rama `retrospectiva-corte1`.
