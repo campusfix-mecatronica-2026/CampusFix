@@ -1,6 +1,6 @@
 # Retrospectiva del Corte I - CampusFix
 
-**Asignatura:** Mobile Cloud Computing - IS0249-210
+**Asignatura:** Mobile Cloud Computing - IS0276-210
 
 **Programa:** Ingeniería Mecatrónica
 
