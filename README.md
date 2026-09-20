@@ -17,10 +17,9 @@ CampusFix centralizará los reportes en una aplicación móvil. Los usuarios pod
 - **Servicios en la nube:** Firebase Authentication, Cloud Firestore y Firebase Storage.
 - **Control de versiones:** Git y GitHub.
 - **Gestión ágil:** tablero Kanban de GitHub Projects.
-## Integrantes del equipo
+## Integrante del proyecto
 
 - **Jeyson Arley Sánchez Gómez** — Código: 202210063611
-- **Jorge Armando Sánchez Quintero** — Código: 202220003611
 ## Usuarios objetivo
 
 - Estudiantes, docentes y personal administrativo que necesiten reportar un problema.
