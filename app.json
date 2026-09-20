@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "CampusFix",
-    "slug": "CampusFix",
+    "slug": "campusfix",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,6 +16,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.campusfix.mecatronica",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -25,6 +26,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4d429ad4-a900-4dd1-89a4-60c48b566d28"
+      }
+    },
+    "owner": "campusfix-mecatronica-2026"
   }
 }

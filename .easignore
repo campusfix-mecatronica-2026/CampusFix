@@ -1,0 +1,35 @@
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+/ios
+/android
+
+# Metro and logs
+.metro-health-check*
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Local and generated files
+.DS_Store
+*.pem
+.env*.local
+*.tsbuildinfo
+
+# Files from a previous activity that are not part of the mobile build
+Pitch_CampusFix_Actividad_Evaluable_01.docx
+Pitch_CampusFix_Actividad_Evaluable_01.pdf
