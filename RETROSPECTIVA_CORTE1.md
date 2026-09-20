@@ -97,15 +97,15 @@ Se reorganizó la aplicación en capas de modelos, vistas, viewmodels, servicios
 
 | Acción | Responsable | Issue asociado | Prioridad |
 |---|---|---|---|
-| Implementar autenticación y persistencia de reportes con Firebase | Jeyson Arley Sánchez Gómez | Pendiente de crear | Alta |
-| Agregar pruebas automatizadas de navegación, formulario y servicios | Jeyson Arley Sánchez Gómez | Pendiente de crear | Alta |
-| Definir ramas, commits y revisiones para cada historia del Corte II | Jeyson Arley Sánchez Gómez | Pendiente de crear | Media |
+| Implementar autenticación y persistencia de reportes con Firebase | Jeyson Arley Sánchez Gómez | [Issue #35](https://github.com/campusfix-mecatronica-2026/CampusFix/issues/35) | Alta |
+| Agregar pruebas automatizadas de navegación, formulario y servicios | Jeyson Arley Sánchez Gómez | [Issue #36](https://github.com/campusfix-mecatronica-2026/CampusFix/issues/36) | Alta |
+| Definir ramas, commits y revisiones para cada historia del Corte II | Jeyson Arley Sánchez Gómez | [Issue #37](https://github.com/campusfix-mecatronica-2026/CampusFix/issues/37) | Media |
 
 ## 7. Enlaces de la retrospectiva
 
 - **Discussion principal:** [Retrospectiva Corte I - CampusFix #34](https://github.com/campusfix-mecatronica-2026/CampusFix/discussions/34).
 - **Tablero de retrospectiva en GitHub Projects:** pendiente de crear (opcional, recomendado).
-- **Issues de mejora:** pendientes de crear.
+- **Issues de mejora:** [#35 - Firebase](https://github.com/campusfix-mecatronica-2026/CampusFix/issues/35), [#36 - pruebas y validaciones](https://github.com/campusfix-mecatronica-2026/CampusFix/issues/36) y [#37 - trazabilidad de Git](https://github.com/campusfix-mecatronica-2026/CampusFix/issues/37).
 - **Pull Request de esta retrospectiva:** pendiente de crear desde la rama `retrospectiva-corte1`.
 
 ## 8. Conclusión
