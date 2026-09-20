@@ -6,7 +6,7 @@
 
 **Proyecto:** CampusFix
 
-**Integrantes:** Jeyson Arley Sánchez Gómez y Jorge Armando Sánchez Quintero
+**Integrante:** Jeyson Arley Sánchez Gómez
 
 **Fecha:** 20 de septiembre de 2026
 
@@ -69,29 +69,13 @@ Se reorganizó la aplicación en capas de modelos, vistas, viewmodels, servicios
 
 ## 4. Qué se puede mejorar
 
-1. **Distribución y trazabilidad del trabajo.** La mayor parte de los commits visibles está asociada a un solo autor. En el siguiente corte cada integrante debe trabajar con ramas, commits y Pull Requests propios.
+1. **Trazabilidad del trabajo.** En el siguiente corte cada historia debe quedar respaldada por una rama, commits descriptivos, evidencias y un Pull Request.
 2. **Persistencia cloud.** Firebase aparece como arquitectura propuesta, pero todavía no existe evidencia de autenticación ni almacenamiento real de reportes y fotografías.
 3. **Pruebas automatizadas.** La validación actual es principalmente manual. Se necesitan pruebas para la navegación, las reglas del formulario y los servicios.
 4. **Manejo de errores y estados.** Deben agregarse indicadores de carga, mensajes de error, validaciones de campos y respuesta ante fallos de red.
 5. **Cierre oportuno de Pull Requests.** El PR #17 está aprobado, pero continúa abierto. El equipo debe acordar el momento de integración y mantener `main` actualizado.
 
 ## 5. Reflexiones individuales
-
-### Jorge Armando Sánchez Quintero
-
-**Qué se hizo bien**
-
-- La implementación del Sprint 3 se dividió en commits pequeños y descriptivos, lo cual permite relacionar cada cambio con navegación, arquitectura, EAS y documentación.
-- Se logró generar e instalar un APK funcional y se guardaron evidencias del recorrido principal en un dispositivo Android.
-
-**Qué se puede mejorar**
-
-- Es necesario incorporar pruebas automatizadas y una verificación más sistemática de errores, accesibilidad y casos límite.
-- La integración debe distribuirse mejor para que las contribuciones de ambos integrantes sean visibles mediante ramas y Pull Requests individuales.
-
-**Acción propuesta**
-
-- Crear una base de pruebas automatizadas para navegación, validación del formulario y servicios, e integrarla al flujo de Pull Requests del Corte II.
 
 ### Jeyson Arley Sánchez Gómez
 
@@ -102,20 +86,20 @@ Se reorganizó la aplicación en capas de modelos, vistas, viewmodels, servicios
 
 **Qué se puede mejorar**
 
-- Se requiere aumentar la trazabilidad individual del trabajo mediante commits, revisiones y evidencias asociadas a cada integrante.
+- Se requiere aumentar la trazabilidad del trabajo mediante ramas, commits, revisiones y evidencias asociadas a cada historia de usuario.
 - Los datos del prototipo deben dejar de ser locales y conectarse con autenticación, base de datos y almacenamiento de evidencias en la nube.
 
 **Acción propuesta**
 
-- Implementar el primer incremento de Firebase Authentication y Cloud Firestore, conservando la separación MVVM y documentando la configuración.
+- Implementar el primer incremento de Firebase Authentication y Cloud Firestore, conservando la separación MVVM y documentando la configuración. También se debe incorporar una base de pruebas automatizadas para la navegación y los formularios.
 
 ## 6. Acciones de mejora para el Corte II
 
 | Acción | Responsable | Issue asociado | Prioridad |
 |---|---|---|---|
 | Implementar autenticación y persistencia de reportes con Firebase | Jeyson Arley Sánchez Gómez | Pendiente de crear | Alta |
-| Agregar pruebas automatizadas de navegación, formulario y servicios | Jorge Armando Sánchez Quintero | Pendiente de crear | Alta |
-| Definir ramas, commits y revisiones individuales para cada historia del Corte II | Jorge Armando Sánchez Quintero | Pendiente de crear | Media |
+| Agregar pruebas automatizadas de navegación, formulario y servicios | Jeyson Arley Sánchez Gómez | Pendiente de crear | Alta |
+| Definir ramas, commits y revisiones para cada historia del Corte II | Jeyson Arley Sánchez Gómez | Pendiente de crear | Media |
 
 ## 7. Enlaces de la retrospectiva
 
@@ -126,4 +110,4 @@ Se reorganizó la aplicación en capas de modelos, vistas, viewmodels, servicios
 
 ## 8. Conclusión
 
-CampusFix cerró el Corte I con un problema bien definido, un backlog visible, un prototipo coherente, una estructura MVVM, navegación funcional y un APK probado en Android. La prioridad del Corte II será convertir el prototipo local en una aplicación conectada a servicios cloud, mejorar la cobertura de pruebas y distribuir el trabajo con mayor trazabilidad entre los integrantes.
+CampusFix cerró el Corte I con un problema bien definido, un backlog visible, un prototipo coherente, una estructura MVVM, navegación funcional y un APK probado en Android. La prioridad del Corte II será convertir el prototipo local en una aplicación conectada a servicios cloud, mejorar la cobertura de pruebas y mantener una trazabilidad clara de cada incremento.
