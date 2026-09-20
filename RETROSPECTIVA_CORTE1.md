@@ -1,9 +1,13 @@
 # Retrospectiva del Corte I - CampusFix
 
-**Asignatura:** Mobile Cloud Computing - IS0249-210  
-**Programa:** Ingeniería Mecatrónica  
-**Proyecto:** CampusFix  
-**Integrantes:** Jeyson Arley Sánchez Gómez y Jorge Armando Sánchez Quintero  
+**Asignatura:** Mobile Cloud Computing - IS0249-210
+
+**Programa:** Ingeniería Mecatrónica
+
+**Proyecto:** CampusFix
+
+**Integrantes:** Jeyson Arley Sánchez Gómez y Jorge Armando Sánchez Quintero
+
 **Fecha:** 20 de septiembre de 2026
 
 ## 1. Propósito y alcance
