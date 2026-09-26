@@ -41,8 +41,8 @@ type CampusFixViewModelValue = {
 const CampusFixViewModelContext = createContext<CampusFixViewModelValue | null>(null);
 
 export function CampusFixViewModelProvider({ children }: { children: ReactNode }) {
-  const [email, setEmail] = useState('jorge@campus.edu.co');
-  const [password, setPassword] = useState('campusfix');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const [category, setCategory] = useState('Infraestructura');
   const [title, setTitle] = useState('Luminaria averiada');
   const [description, setDescription] = useState(
