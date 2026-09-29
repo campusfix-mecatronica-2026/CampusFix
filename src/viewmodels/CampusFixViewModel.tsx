@@ -94,6 +94,12 @@ export function CampusFixViewModelProvider({ children }: { children: ReactNode }
     );
 
     setReports((current) => [created, ...current]);
+        setTitle('');
+    setDescription('');
+    setLocation('');
+    setCategory('Infraestructura');
+    setPriority('Media');
+    setEvidence(false);
     clearError();
     return created;
   };
