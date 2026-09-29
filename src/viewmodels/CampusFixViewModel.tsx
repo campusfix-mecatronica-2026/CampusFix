@@ -94,7 +94,7 @@ export function CampusFixViewModelProvider({ children }: { children: ReactNode }
     );
 
     setReports((current) => [created, ...current]);
-        setTitle('');
+    setTitle('');
     setDescription('');
     setLocation('');
     setCategory('Infraestructura');
