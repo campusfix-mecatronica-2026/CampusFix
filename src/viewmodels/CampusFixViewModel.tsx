@@ -33,6 +33,7 @@ type CampusFixViewModelValue = {
   setFilter: (value: ReportFilter) => void;
   clearError: () => void;
   signIn: () => boolean;
+  signOut: () => void;
   validateReportInformation: () => boolean;
   submitReport: () => Report | null;
   getReportById: (id: string) => Report | undefined;
@@ -71,7 +72,12 @@ export function CampusFixViewModelProvider({ children }: { children: ReactNode }
     clearError();
     return true;
   };
-
+  const signOut = () => {
+    setEmail('');
+    setPassword('');
+    setError('');
+    setFilter('Todos');
+  };
   const validateReportInformation = () => {
     if (!title.trim() || !description.trim()) {
       setError('Completa el título y la descripción del incidente.');
@@ -130,6 +136,7 @@ export function CampusFixViewModelProvider({ children }: { children: ReactNode }
     setFilter,
     clearError,
     signIn,
+    signOut,
     validateReportInformation,
     submitReport,
     getReportById,
