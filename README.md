@@ -99,3 +99,16 @@ npm run web
 
 Para probarlo en Expo Go se utiliza `npm start`; para Android, `npm run android`.
 
+## Actividad Evaluable 06 - Base de datos cloud
+
+CampusFix se encuentra conectado al proyecto Firebase `campusfix-corte2-jeyson-2026` mediante el SDK modular. La aplicacion autentica usuarios con correo y contrasena, crea reportes en Cloud Firestore, registra el evento inicial en la subcoleccion `history` y consulta los reportes del usuario ordenados por fecha.
+
+### Entregables
+
+- [Informe final en PDF](docs/taller-6/CampusFix_Actividad_Evaluable_06_Base_de_Datos_Cloud.pdf)
+- [Informe editable en Word](docs/taller-6/CampusFix_Actividad_Evaluable_06_Base_de_Datos_Cloud.docx)
+- [Modelo de datos](docs/taller-6/MODELO_DATOS.md)
+- [Diccionario de datos](docs/taller-6/DICCIONARIO_DATOS.md)
+- [Reglas de Firestore](firestore.rules)
+- [Indices de Firestore](firestore.indexes.json)
+

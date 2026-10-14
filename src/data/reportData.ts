@@ -1,6 +1,6 @@
 import type { Priority, Report } from '../models/Report';
 
-export const categories = ['Infraestructura', 'Tecnología', 'Seguridad', 'Limpieza'];
+export const categories = ['Infraestructura', 'Tecnología', 'Seguridad', 'Aseo'];
 
 export const priorities: Priority[] = ['Baja', 'Media', 'Alta'];
 

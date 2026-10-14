@@ -21,14 +21,15 @@ export function EvidenceView({ navigation }: AppScreenProps<'Evidence'>) {
     priority,
     evidence,
     error,
+    loading,
     setLocation,
     setPriority,
     setEvidence,
     submitReport,
   } = useCampusFixViewModel();
 
-  const handleSubmit = () => {
-    const created = submitReport();
+  const handleSubmit = async () => {
+    const created = await submitReport();
 
     if (created) {
       navigation.replace('Success', { reportId: created.id });
@@ -80,7 +81,7 @@ export function EvidenceView({ navigation }: AppScreenProps<'Evidence'>) {
         </Text>
       </Pressable>
       <ErrorMessage text={error} />
-      <PrimaryButton label="Enviar reporte" onPress={handleSubmit} />
+      <PrimaryButton label={loading ? 'Enviando…' : 'Enviar reporte'} onPress={handleSubmit} />
       <OutlineButton label="Volver" onPress={() => navigation.goBack()} />
     </Page>
   );

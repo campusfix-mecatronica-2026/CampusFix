@@ -12,7 +12,7 @@ import { colors, styles } from '../theme/styles';
 import { useCampusFixViewModel } from '../viewmodels/CampusFixViewModel';
 
 export function HomeView({ navigation }: AppScreenProps<'Home'>) {
-  const { reports, clearError } = useCampusFixViewModel();
+  const { reports, clearError, signOut } = useCampusFixViewModel();
 
   const openReport = (reportId: string) => {
     navigation.navigate('ReportDetail', { reportId });
@@ -23,8 +23,8 @@ export function HomeView({ navigation }: AppScreenProps<'Home'>) {
     navigation.navigate('ReportForm');
   };
 
-  const signOut = () => {
-    clearError();
+  const handleSignOut = async () => {
+    await signOut();
     navigation.reset({ index: 0, routes: [{ name: 'Login' }] });
   };
 
@@ -33,9 +33,9 @@ export function HomeView({ navigation }: AppScreenProps<'Home'>) {
       <View style={styles.topRow}>
         <View>
           <Text style={styles.eyebrow}>CAMPUSFIX</Text>
-          <Text style={styles.greeting}>Hola, Jorge</Text>
+          <Text style={styles.greeting}>Hola, Jeyson</Text>
         </View>
-        <Pressable onPress={signOut} style={styles.avatar}>
+        <Pressable onPress={handleSignOut} style={styles.avatar}>
           <Text style={styles.avatarText}>JS</Text>
         </Pressable>
       </View>

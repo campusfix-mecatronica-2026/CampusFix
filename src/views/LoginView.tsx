@@ -10,13 +10,14 @@ export function LoginView({ navigation }: AppScreenProps<'Login'>) {
     email,
     password,
     error,
+    loading,
     setEmail,
     setPassword,
     signIn,
   } = useCampusFixViewModel();
 
-  const handleSignIn = () => {
-    if (signIn()) {
+  const handleSignIn = async () => {
+    if (await signIn()) {
       navigation.reset({ index: 0, routes: [{ name: 'Home' }] });
     }
   };
@@ -49,7 +50,7 @@ export function LoginView({ navigation }: AppScreenProps<'Login'>) {
           style={styles.input}
         />
         <ErrorMessage text={error} />
-        <PrimaryButton label="Ingresar" onPress={handleSignIn} />
+        <PrimaryButton label={loading ? 'Ingresando…' : 'Ingresar'} onPress={handleSignIn} />
         <Text style={styles.centerLink}>¿Olvidaste tu contraseña?</Text>
       </View>
       <Text style={styles.prototype}>INCREMENTO FUNCIONAL · SPRINT 3</Text>
