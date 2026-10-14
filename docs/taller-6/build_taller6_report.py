@@ -320,7 +320,7 @@ def create_document():
 
     doc.add_paragraph()
     add_table(doc, ["Campo", "Informacion"], [
-        ("Programa", "Ingenieria de Sistemas"),
+        ("Programa", "Ingenieria Mecatronica"),
         ("Asignatura", "Mobile Cloud Computing - IS0249 - 210"),
         ("Estudiante", "Jeyson Arley Sanchez Gomez"),
         ("Codigo", "202210063611"),
