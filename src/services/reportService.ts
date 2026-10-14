@@ -15,6 +15,6 @@ export function buildReport(draft: ReportDraft, currentReports: Report[]): Repor
     description: draft.description.trim(),
     location: draft.location.trim(),
     status: 'Abierto',
-    date: 'Ahora',
+    date: new Date().toISOString(),
   };
 }
