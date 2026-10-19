@@ -65,12 +65,16 @@ service cloud.firestore {
           return get(/databases/$(database)/documents/reports/$(reportId)).data;
         }
 
+        function parentReportAfterWrite() {
+          return getAfter(/databases/$(database)/documents/reports/$(reportId)).data;
+        }
+
         allow read: if isSignedIn()
           && (parentReport().reporterId == request.auth.uid || isStaff());
 
         allow create: if isSignedIn()
           && request.resource.data.actorId == request.auth.uid
-          && (parentReport().reporterId == request.auth.uid || isStaff())
+          && (parentReportAfterWrite().reporterId == request.auth.uid || isStaff())
           && request.resource.data.type in
             ['created', 'status_changed', 'assigned', 'commented'];
 
