@@ -59,7 +59,8 @@ Evidencias:
 
 - [Evidencias de Firebase y aplicación](https://github.com/campusfix-mecatronica-2026/CampusFix/tree/feature/44-taller6-base-datos-cloud/docs/taller-6/evidencias)
 - [Compilación Android del Corte 2](https://expo.dev/accounts/campusfix-mecatronica-2026/projects/campusfix/builds/de0c249b-a324-46bc-aa18-7aebd8ae5ddb)
-- [APK Android](https://expo.dev/artifacts/eas/2Zpmpo5T-lRQDVrkKDcIQyfdaKpIZXfHa-15Eyp_Yog.apk)
+- [GitHub Release v1.0.0-corte2](https://github.com/campusfix-mecatronica-2026/CampusFix/releases/tag/v1.0.0-corte2)
+- [Descarga permanente del APK](https://github.com/campusfix-mecatronica-2026/CampusFix/releases/download/v1.0.0-corte2/CampusFix-Corte2-v1.0.0.apk)
 
 ## 4. Matriz de trazabilidad
 
@@ -107,6 +108,7 @@ El modelo está documentado en:
 | Reglas e índices configurados | Cumple | Evidencias 05 y 06 del Taller 6 |
 | Flujo móvil principal funcional | Cumple | Inicio, formulario, confirmación y detalle |
 | APK Android compilada | Cumple | Build Expo EAS `de0c249b-a324-46bc-aa18-7aebd8ae5ddb` |
+| APK publicada en GitHub Releases | Cumple | [Release v1.0.0-corte2](https://github.com/campusfix-mecatronica-2026/CampusFix/releases/tag/v1.0.0-corte2) |
 | Discussion de Sprint Review publicada | Cumple | [Discussion #46](https://github.com/campusfix-mecatronica-2026/CampusFix/discussions/46) |
 | PR revisado e integrado a `main` | Pendiente | [PR #45](https://github.com/campusfix-mecatronica-2026/CampusFix/pull/45) abierto; requiere aprobación y fusión |
 | Video demostrativo publicado | Pendiente | Requiere agregar enlace del video final |
@@ -133,5 +135,7 @@ El incremento demuestra que CampusFix pasó de un prototipo con datos locales a 
 - **Rama cloud:** https://github.com/campusfix-mecatronica-2026/CampusFix/tree/feature/44-taller6-base-datos-cloud
 - **Evidencias:** https://github.com/campusfix-mecatronica-2026/CampusFix/tree/feature/44-taller6-base-datos-cloud/docs/taller-6/evidencias
 - **Build APK:** https://expo.dev/accounts/campusfix-mecatronica-2026/projects/campusfix/builds/de0c249b-a324-46bc-aa18-7aebd8ae5ddb
+- **GitHub Release:** https://github.com/campusfix-mecatronica-2026/CampusFix/releases/tag/v1.0.0-corte2
+- **APK:** https://github.com/campusfix-mecatronica-2026/CampusFix/releases/download/v1.0.0-corte2/CampusFix-Corte2-v1.0.0.apk
 - **Video demostrativo:** pendiente de publicar.
 
