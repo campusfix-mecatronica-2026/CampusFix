@@ -112,3 +112,15 @@ CampusFix se encuentra conectado al proyecto Firebase `campusfix-corte2-jeyson-2
 - [Reglas de Firestore](firestore.rules)
 - [Indices de Firestore](firestore.indexes.json)
 
+## Taller 7 - Sprint Review Corte 2
+
+El Taller 7 consolida la trazabilidad del incremento cloud, la validacion del Definition of Done y las evidencias de funcionamiento de CampusFix.
+
+### Entregables
+
+- [Documento consolidado SPRINT_REVIEW_CORTE2.md](docs/SPRINT_REVIEW_CORTE2.md)
+- [Discussion Sprint Review Corte 2](https://github.com/campusfix-mecatronica-2026/CampusFix/discussions/46)
+- [Pull Request #45 - Firebase y Sprint Review](https://github.com/campusfix-mecatronica-2026/CampusFix/pull/45)
+- [Evidencias de persistencia cloud](docs/taller-6/evidencias/)
+- [Compilacion Android en Expo EAS](https://expo.dev/accounts/campusfix-mecatronica-2026/projects/campusfix/builds/de0c249b-a324-46bc-aa18-7aebd8ae5ddb)
+

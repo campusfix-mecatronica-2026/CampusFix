@@ -107,7 +107,8 @@ El modelo está documentado en:
 | Reglas e índices configurados | Cumple | Evidencias 05 y 06 del Taller 6 |
 | Flujo móvil principal funcional | Cumple | Inicio, formulario, confirmación y detalle |
 | APK Android compilada | Cumple | Build Expo EAS `de0c249b-a324-46bc-aa18-7aebd8ae5ddb` |
-| PR revisado e integrado a `main` | Pendiente | Requiere abrir, aprobar y fusionar PR del incremento cloud |
+| Discussion de Sprint Review publicada | Cumple | [Discussion #46](https://github.com/campusfix-mecatronica-2026/CampusFix/discussions/46) |
+| PR revisado e integrado a `main` | Pendiente | [PR #45](https://github.com/campusfix-mecatronica-2026/CampusFix/pull/45) abierto; requiere aprobación y fusión |
 | Video demostrativo publicado | Pendiente | Requiere agregar enlace del video final |
 | Acceso Firebase para `endiromero@gmail.com` | Pendiente de verificación administrativa | Debe comprobarse en Usuarios y permisos |
 
@@ -118,7 +119,7 @@ El modelo está documentado en:
 - [PR #41 — Limpieza del formulario](https://github.com/campusfix-mecatronica-2026/CampusFix/pull/41)
 - [PR #42 — Fecha real de reportes](https://github.com/campusfix-mecatronica-2026/CampusFix/pull/42)
 - [PR #43 — Cierre de sesión seguro](https://github.com/campusfix-mecatronica-2026/CampusFix/pull/43)
-- [Comparación para PR del incremento Firebase](https://github.com/campusfix-mecatronica-2026/CampusFix/compare/main...feature/44-taller6-base-datos-cloud)
+- [PR #45 — Firebase y Sprint Review Corte 2](https://github.com/campusfix-mecatronica-2026/CampusFix/pull/45)
 
 ## 8. Resultado de la Sprint Review
 
@@ -127,6 +128,8 @@ El incremento demuestra que CampusFix pasó de un prototipo con datos locales a 
 ## 9. Enlaces de entrega
 
 - **Repositorio:** https://github.com/campusfix-mecatronica-2026/CampusFix
+- **Discussion de Sprint Review:** https://github.com/campusfix-mecatronica-2026/CampusFix/discussions/46
+- **Pull Request del incremento:** https://github.com/campusfix-mecatronica-2026/CampusFix/pull/45
 - **Rama cloud:** https://github.com/campusfix-mecatronica-2026/CampusFix/tree/feature/44-taller6-base-datos-cloud
 - **Evidencias:** https://github.com/campusfix-mecatronica-2026/CampusFix/tree/feature/44-taller6-base-datos-cloud/docs/taller-6/evidencias
 - **Build APK:** https://expo.dev/accounts/campusfix-mecatronica-2026/projects/campusfix/builds/de0c249b-a324-46bc-aa18-7aebd8ae5ddb
