@@ -109,6 +109,7 @@ export function CampusFixViewModelProvider({ children }: { children: ReactNode }
     setReports([]);
     setEmail('');
     setPassword('');
+    setFilter('Todos');
     clearError();
   };
 

@@ -147,6 +147,22 @@ export function StatusBadge({ status }: { status: ReportStatus }) {
   );
 }
 
+function formatReportDate(date: string): string {
+  const parsedDate = new Date(date);
+
+  if (Number.isNaN(parsedDate.getTime())) {
+    return date;
+  }
+
+  return parsedDate.toLocaleString('es-CO', {
+    day: '2-digit',
+    month: '2-digit',
+    year: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+  });
+}
+
 export function ReportCard({ report, onPress }: { report: Report; onPress: () => void }) {
   return (
     <Pressable
@@ -160,7 +176,7 @@ export function ReportCard({ report, onPress }: { report: Report; onPress: () =>
       <Text style={styles.reportTitle}>{report.title}</Text>
       <Text style={styles.reportMeta}>{report.category} · {report.location}</Text>
       <View style={styles.topRow}>
-        <Text style={styles.reportDate}>{report.date}</Text>
+        <Text style={styles.reportDate}>{formatReportDate(report.date)}</Text>
         <Text style={styles.arrow}>›</Text>
       </View>
     </Pressable>
