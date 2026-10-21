@@ -59,8 +59,7 @@ Evidencias:
 
 - [Evidencias de Firebase y aplicación](https://github.com/campusfix-mecatronica-2026/CampusFix/tree/feature/44-taller6-base-datos-cloud/docs/taller-6/evidencias)
 - [Compilación Android del Corte 2](https://expo.dev/accounts/campusfix-mecatronica-2026/projects/campusfix/builds/de0c249b-a324-46bc-aa18-7aebd8ae5ddb)
-- [GitHub Release v1.0.0-corte2](https://github.com/campusfix-mecatronica-2026/CampusFix/releases/tag/v1.0.0-corte2)
-- [Descarga permanente del APK](https://github.com/campusfix-mecatronica-2026/CampusFix/releases/download/v1.0.0-corte2/CampusFix-Corte2-v1.0.0.apk)
+- GitHub Release y descarga permanente: pendientes de publicar desde `Jeyson17-as`.
 
 ## 4. Matriz de trazabilidad
 
@@ -108,9 +107,9 @@ El modelo está documentado en:
 | Reglas e índices configurados | Cumple | Evidencias 05 y 06 del Taller 6 |
 | Flujo móvil principal funcional | Cumple | Inicio, formulario, confirmación y detalle |
 | APK Android compilada | Cumple | Build Expo EAS `de0c249b-a324-46bc-aa18-7aebd8ae5ddb` |
-| APK publicada en GitHub Releases | Cumple | [Release v1.0.0-corte2](https://github.com/campusfix-mecatronica-2026/CampusFix/releases/tag/v1.0.0-corte2) |
-| Discussion de Sprint Review publicada | Cumple | [Discussion #46](https://github.com/campusfix-mecatronica-2026/CampusFix/discussions/46) |
-| PR revisado e integrado a `main` | Pendiente | [PR #45](https://github.com/campusfix-mecatronica-2026/CampusFix/pull/45) abierto; requiere aprobación y fusión |
+| APK publicada en GitHub Releases | Pendiente | Debe publicarla `Jeyson17-as` |
+| Discussion de Sprint Review publicada | Pendiente | Debe publicarla `Jeyson17-as` |
+| PR revisado e integrado a `main` | Pendiente | Debe abrirlo `Jeyson17-as`, solicitar revisión y fusionarlo |
 | Video demostrativo publicado | Pendiente | Requiere agregar enlace del video final |
 | Acceso Firebase para `endiromero@gmail.com` | Pendiente de verificación administrativa | Debe comprobarse en Usuarios y permisos |
 
@@ -121,7 +120,7 @@ El modelo está documentado en:
 - [PR #41 — Limpieza del formulario](https://github.com/campusfix-mecatronica-2026/CampusFix/pull/41)
 - [PR #42 — Fecha real de reportes](https://github.com/campusfix-mecatronica-2026/CampusFix/pull/42)
 - [PR #43 — Cierre de sesión seguro](https://github.com/campusfix-mecatronica-2026/CampusFix/pull/43)
-- [PR #45 — Firebase y Sprint Review Corte 2](https://github.com/campusfix-mecatronica-2026/CampusFix/pull/45)
+- [Comparación para crear el PR desde `Jeyson17-as`](https://github.com/campusfix-mecatronica-2026/CampusFix/compare/main...feature/44-taller6-base-datos-cloud?expand=1)
 
 ## 8. Resultado de la Sprint Review
 
@@ -130,12 +129,11 @@ El incremento demuestra que CampusFix pasó de un prototipo con datos locales a 
 ## 9. Enlaces de entrega
 
 - **Repositorio:** https://github.com/campusfix-mecatronica-2026/CampusFix
-- **Discussion de Sprint Review:** https://github.com/campusfix-mecatronica-2026/CampusFix/discussions/46
-- **Pull Request del incremento:** https://github.com/campusfix-mecatronica-2026/CampusFix/pull/45
+- **Discussion de Sprint Review:** pendiente de publicar desde `Jeyson17-as`.
+- **Pull Request del incremento:** pendiente de publicar desde `Jeyson17-as`.
 - **Rama cloud:** https://github.com/campusfix-mecatronica-2026/CampusFix/tree/feature/44-taller6-base-datos-cloud
 - **Evidencias:** https://github.com/campusfix-mecatronica-2026/CampusFix/tree/feature/44-taller6-base-datos-cloud/docs/taller-6/evidencias
 - **Build APK:** https://expo.dev/accounts/campusfix-mecatronica-2026/projects/campusfix/builds/de0c249b-a324-46bc-aa18-7aebd8ae5ddb
-- **GitHub Release:** https://github.com/campusfix-mecatronica-2026/CampusFix/releases/tag/v1.0.0-corte2
-- **APK:** https://github.com/campusfix-mecatronica-2026/CampusFix/releases/download/v1.0.0-corte2/CampusFix-Corte2-v1.0.0.apk
+- **GitHub Release y APK:** pendientes de publicar desde `Jeyson17-as`.
 - **Video demostrativo:** pendiente de publicar.
 

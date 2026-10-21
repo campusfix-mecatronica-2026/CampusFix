@@ -119,10 +119,9 @@ El Taller 7 consolida la trazabilidad del incremento cloud, la validacion del De
 ### Entregables
 
 - [Documento consolidado SPRINT_REVIEW_CORTE2.md](docs/SPRINT_REVIEW_CORTE2.md)
-- [Discussion Sprint Review Corte 2](https://github.com/campusfix-mecatronica-2026/CampusFix/discussions/46)
-- [Pull Request #45 - Firebase y Sprint Review](https://github.com/campusfix-mecatronica-2026/CampusFix/pull/45)
+- Discussion Sprint Review Corte 2: pendiente de publicar desde `Jeyson17-as`.
+- Pull Request de Firebase y Sprint Review: pendiente de publicar desde `Jeyson17-as`.
 - [Evidencias de persistencia cloud](docs/taller-6/evidencias/)
 - [Compilacion Android en Expo EAS](https://expo.dev/accounts/campusfix-mecatronica-2026/projects/campusfix/builds/de0c249b-a324-46bc-aa18-7aebd8ae5ddb)
-- [GitHub Release v1.0.0-corte2](https://github.com/campusfix-mecatronica-2026/CampusFix/releases/tag/v1.0.0-corte2)
-- [Descargar APK Android](https://github.com/campusfix-mecatronica-2026/CampusFix/releases/download/v1.0.0-corte2/CampusFix-Corte2-v1.0.0.apk)
+- GitHub Release con APK: pendiente de publicar desde `Jeyson17-as`.
 
